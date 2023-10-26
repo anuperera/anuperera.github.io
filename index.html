@@ -7,7 +7,10 @@
   <body style="margin: 0px; overflow: hidden">
     <a-scene embedded vr-mode-ui="enabled: true;" arjs="debugUIEnabled: true;">
       <a-assets>
-        <a-asset-item id="tree" src="models/scene.gltf"></a-asset-item>
+        <a-asset-item id="zombie_1" src="models/scene.gltf"></a-asset-item>
+        <a-asset-item id="zombie_2" src="models/zombie_solider_walk/scene.gltf"></a-asset-item>
+        <a-asset-item id="zombie_3" src="models/crying_head/scene.gltf"></a-asset-item>
+        <a-asset-item id="zombie_4" src="models/zombie_walk_test/scene.gltf"></a-asset-item>
       </a-assets>
 
       <a-marker type="pattern" url="data/kanji.patt">
@@ -15,7 +18,40 @@
           position="0 0 0"
           rotation="-90 0 0"
           scale="0.03 0.03 0.03"
-          gltf-model="#tree"
+          gltf-model="#zombie_1"
+          animation-mixer
+        >
+        </a-entity>
+      </a-marker>
+
+      <a-marker type="pattern" url="data/alpha.patt">
+        <a-entity
+          position="0 0 3"
+          rotation="-90 0 0"
+          scale="0.03 0.03 0.03"
+          gltf-model="#zombie_2"
+          animation-mixer
+        >
+        </a-entity>
+      </a-marker>
+
+      <a-marker type="pattern" url="data/beta.patt">
+        <a-entity
+          position="0 0 0"
+          rotation="-90 0 0"
+          scale="0.01 0.01 0.01"
+          gltf-model="#zombie_3"
+          animation-mixer
+        >
+        </a-entity>
+      </a-marker>
+
+      <a-marker type="pattern" url="data/gamma.patt">
+        <a-entity
+          position="0 0 5"
+          rotation="-90 0 0"
+          scale="2 2 2"
+          gltf-model="#zombie_4"
           animation-mixer
         >
         </a-entity>

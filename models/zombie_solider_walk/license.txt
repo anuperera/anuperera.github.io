@@ -1,0 +1,11 @@
+Model Information:
+* title:	Zombie Solider Walk
+* source:	https://sketchfab.com/3d-models/zombie-solider-walk-47fcf2d2cecc409f88558af50180bd79
+* author:	LostBoyz2078 (https://sketchfab.com/LostModels2025)
+
+Model License:
+* license type:	CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
+* requirements:	Author must be credited. No commercial use.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Zombie Solider Walk" (https://sketchfab.com/3d-models/zombie-solider-walk-47fcf2d2cecc409f88558af50180bd79) by LostBoyz2078 (https://sketchfab.com/LostModels2025) licensed under CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
